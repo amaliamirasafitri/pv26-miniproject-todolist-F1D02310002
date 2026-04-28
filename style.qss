@@ -1,0 +1,87 @@
+/* GLOBAL */
+QWidget {
+    font-family: Arial;
+    font-size: 13px;
+    background-color: #f5f7fa;
+    color: black;
+}
+
+/* HEADER */
+#header {
+    background-color: #1c7ed6;
+}
+
+#title {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background: transparent; 
+}
+
+#userLabel {
+    color: black;
+    font-weight: bold;
+    background: transparent;  
+}
+
+/* BUTTON DEFAULT */
+QPushButton {
+    background-color: #2c7be5;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    min-width: 70px;
+}
+
+QPushButton:hover {
+    background-color: #1a5edb;
+}
+
+/* LIST */
+QListWidget {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#taskLabel {
+    color: black;
+    font-size: 14px;
+}
+
+/* BUTTON */
+QPushButton#btnAdd {
+    background-color: #28a745; /* tambah */
+}
+
+QPushButton#btnAdd:hover {
+    background-color: #218838;
+}
+
+QPushButton#btnEdit {
+    background-color: #ffc107; /* edit */
+    color: black;
+}
+
+QPushButton#btnEdit:hover {
+    background-color: #e0a800;
+}
+
+QPushButton#btnDelete {
+    background-color: #dc3545; /* hapus */
+}
+
+QPushButton#btnDelete:hover {
+    background-color: #c82333;
+}
+
+/* TOMBOL LOGOUT (PUTIH) */
+QPushButton#btnLogout {
+    background-color: white;
+    color: black;
+}
+
+QPushButton#btnLogout:hover {
+    background-color: #e9ecef;
+}
