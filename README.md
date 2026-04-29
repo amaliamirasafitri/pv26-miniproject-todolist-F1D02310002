@@ -1,4 +1,4 @@
-Judul : **Aplikasi To-Do List**
+Judul **Aplikasi To-Do List**
 
 **Deskripsi**
 Aplikasi To-Do List merupakan aplikasi manajemen tugas berbasis desktop 
